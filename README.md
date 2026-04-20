@@ -51,6 +51,3 @@ https://youtu.be/H8oAvyqQwew?si=uFX0vmFQPg8Mkjhv
 Used to explain the host and the domain 
 
 https://www.investopedia.com/terms/k/kpi.asp 
-
-They  key performance indicators	 
-
