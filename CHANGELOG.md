@@ -6,13 +6,13 @@ This project follows Semantic Versioning.
 
 ## [1.0.0] 
 ### Added
-- xyz
+- comments have been added to all htmls
 
 ### Changed
-- xyz
+- the content on features are changed to fit the propsed features 
 
 ### Fixed
-- xyz
+- feature page
 
 ## Semantic Versioning
 
