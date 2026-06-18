@@ -1,5 +1,5 @@
 #i1{
-    background-image: url('img/file_0000000041947246bbcf4c86be08ddb7.png');
+    background-image: url('img/fba20ad2-5b78-453b-a951-1fdc137fb22a.png');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -876,4 +876,21 @@ button{
 }
 #if{
     text-align: center;
+}
+#22{ text-align: center;
+    color: #f1ecec;
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+}
+#23{
+    text-align: center;
+    color: #f1ecec;
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+}
+#2{
+    color: #fbf0f0;
+    font-family: "Roboto Slab", serif;
+    font-size: 16px;
+    align-items: right;
 }
