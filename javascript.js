@@ -294,3 +294,42 @@ if(messageBox){
     });
 
 }
+document.addEventListener("DOMContentLoaded", function() {
+
+    const form = document.getElementById("23");
+
+    if(form){
+
+        form.addEventListener("submit", function(event){
+
+            event.preventDefault();
+
+            alert("Sign Up Successful!");
+
+            window.location.href = "about.html";
+
+        });
+
+    }
+
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    const form = document.getElementById("23");
+
+    if(form){
+
+        form.addEventListener("submit", function(event){
+
+            event.preventDefault();
+
+            alert("Sign Up Successful!");
+
+            window.location.href = "about.html";
+
+        });
+
+    }
+
+});
