@@ -8,6 +8,7 @@ This project follows Semantic Versioning.
 ### Added
 - comments have been added to all htmls
 - css has been added to all html files
+- commits added to Js
 ### Changed
 - the content on features are changed to fit the propsed features 
 - hero of the home page was changed

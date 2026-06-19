@@ -1,6 +1,6 @@
 
 document.addEventListener("DOMContentLoaded", function () {
-
+// Get the form element
     const form = document.getElementById("23");
 
     form.addEventListener("submit", function (event) {
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
-
+// Function to handle product purchase
 function buyProduct(productName, productPrice) {
 
     // Store selected product
@@ -106,7 +106,7 @@ function buyProduct(name, price, description) {
 
     window.location.href = "purchasebox.html";
 }
-
+// Display product details on the purchase page
 document.addEventListener("DOMContentLoaded", function () {
 
     const productName = document.getElementById("productName");
@@ -128,7 +128,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 });
-
+// Shopping Cart Functionality
 document.addEventListener("DOMContentLoaded", function () {
 
     let cart = JSON.parse(localStorage.getItem("cart")) || [];
@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "Total Amount: R" + total;
     }
 });
-
+// Function to complete the purchase
 function completePurchase() {
 
     let payment =
@@ -185,7 +185,7 @@ function addToCart(name, price) {
 
     alert(name + " added to cart");
 }
-
+// Contact Form Validation and Submission
 document.addEventListener("DOMContentLoaded", function () {
 
     const form = document.getElementById("contactForm");
