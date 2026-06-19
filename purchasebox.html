@@ -17,30 +17,34 @@
      <li><a href="purchasebox.html">Purchase Box</a></li>
     <li><a href="contact.html">Contact</a></li>
 </ul>
-<div class="heading1">
-        <h2 id="h5">Home Control System</h2>
-         <p>R6999</p>
-    </div>
-    <div class="container1">
-        <section class="feature">
-            <div class="feature-image">
-            <img id="i2"align="middle"src="img/Nova20260416225000.png" alt="HCS" width="500" height="400">
-            <div class="feature-content">
-               </div> 
-            </div>
-        </section>
-            <div class="heading2">
-        <h2 id="h6">Veno 1</h2>
-         <p>R700,00</p>
-    </div>
-    <div class="container2">
-        <section class="feature2">
-            <div class="feature-image2">
-            <img id="i3"align="middle"src="img/3D Chrome Icon Collection - Icoon_co.jpg" alt="headphones" width="300" height="300">
-            <div class="feature-content2">
-            </div>
-            </div>
-        </section>
-    
+<div class="purchase-box">
+    <h2 id="productName"></h2>
+    <p id="productPrice"></p>
+    <p id="productDescription"></p>
+</div>
+<h2>Your Cart</h2>
+
+<div id="cartItems"></div>
+
+<h3 id="total"></h3>
+
+<label>Payment Method:</label>
+
+<select id="paymentMethod">
+    <option value="">Select Payment Method</option>
+    <option>Credit Card</option>
+    <option>Debit Card</option>
+    <option>EFT</option>
+    <option>Cash on Delivery</option>
+</select>
+
+<br><br>
+
+<button onclick="completePurchase()">
+    Complete Purchase
+</button>
+
+<script src="javascript.js"></script>
+<script src="javascript.js"></script>
 </body>
 </html>

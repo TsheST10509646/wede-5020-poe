@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>LERVENO TECH</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body id="b2">
     <header>
@@ -37,6 +38,8 @@ The AI assistant can control a wide range of household systems and appliances th
 Overall, the Home Control System provides users with a modern smart-home solution that improves safety, convenience, energy efficiency, and overall quality of life.
 <br>
             <a href="purchasebox.html" class="purchase">Purchase</a>
+            <a href="#" class="purchase" onclick="buyProduct('HCS','R7800')">Purchase</a>
+            <a href="#" onclick="addToCart('HCS', 7800)">Add to Cart</a>
             </div>
             
         </section>
@@ -59,7 +62,8 @@ One of the key features of the Veno 1 headphones is their compatibility with the
 
 The headphones are designed with both style and comfort in mind. They are available in comfortable and modern colour options, including brown, black, and beige, making them suitable for different user preferences and lifestyles. The soft ear cushions and adjustable headband provide added comfort for long-term use.
 </p>
-<a href="purchasebox.html" class="purchase">Purchase</a>
+<a href="purchasebox.html" class="purchase" onclick="buyProduct('Veno 1', 'R700,00')">Purchase</a>
+<a href="#" onclick="addToCart('Veno 1', 700)">Add to Cart</a>
             </div>
             
         </section>
@@ -83,10 +87,16 @@ The laptop is available in both 14-inch and 16-inch sizes, giving users the flex
 
 Powering the device is the powerful Qualcomm Snapdragon X2 Elite Extreme processor, which delivers fast processing speeds, improved energy efficiency, and smooth overall performance. The machine also includes memory configurations ranging from 16 GB to 32 GB RAM, allowing users to run professional applications, multitask efficiently, and manage large workloads without performance issues.
 </p>
-<a href="purchasebox.html" class="purchase">Purchase</a>
+<a href="purchasebox.html" class="purchase" onclick="buyProduct('Veno Pad', 'R21000')">Purchase</a>
+<a href="#" onclick="addToCart('Veno Pad', 21000)">Add to Cart</a>
             </div>
         </section>
     </div>
+    <h2>Selected Product</h2>
+
+<p><strong>Product:</strong> <span id="product"></span></p>
+
+<p><strong>Price:</strong> <span id="price"></span></p>
 <br>
 <footer>
         <p>Email:lervrnotech@gmail.com</p>
@@ -98,5 +108,6 @@ Powering the device is the powerful Qualcomm Snapdragon X2 Elite Extreme process
             </P>
             <p>&copy;2026 LT. All right resevered
     </footer>
+    <script src="javascript.js"></script>
 </body>
 </html>
